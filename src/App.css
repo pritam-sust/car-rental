@@ -1,5 +1,11 @@
-.App {
-  text-align: center;
+:root {
+  --primary-color: #1e3a8a;
+  --secondary-color: #28a745;
+  --accent-color: #ffc107;
+  --text-dark: #2c3e50;
+  --text-light: #6c757d;
+  --bg-light: #f8f9fa;
+  --bg-dark: #1a202c;
 }
 
 .App-logo {
@@ -35,4 +41,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App {
+  text-align: left;
 }

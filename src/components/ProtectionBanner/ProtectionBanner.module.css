@@ -1,0 +1,75 @@
+.protectionBanner {
+  background-color: #1e3a8a;
+  padding: 2.5rem 0;
+  margin: 4rem 0;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.icon {
+  font-size: 3.5rem;
+  flex-shrink: 0;
+}
+
+.text {
+  color: white;
+}
+
+.title {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.description {
+  margin: 0;
+  color: #e2e8f0;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.knowMore {
+  background-color: white;
+  color: #1e3a8a;
+  border: none;
+  padding: 0.8rem 2.5rem;
+  font-weight: bold;
+  border-radius: 25px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.knowMore:hover {
+  background-color: #f8f9fa;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.3);
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .icon {
+    font-size: 2.5rem;
+  }
+
+  .title {
+    font-size: 1.3rem;
+  }
+
+  .description {
+    font-size: 0.95rem;
+  }
+
+  .knowMore {
+    margin-top: 1rem;
+    width: 100%;
+  }
+}

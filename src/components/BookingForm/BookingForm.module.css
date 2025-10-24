@@ -1,0 +1,102 @@
+.container {
+  margin-top: -50px;
+  margin-bottom: 2rem;
+  position: relative;
+  z-index: 10;
+  padding: 0 15px;
+}
+
+.formCard {
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border: none;
+  background: white;
+}
+
+.cardBody {
+  padding: 2.5rem;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.title {
+  color: #1e3a8a;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  font-size: 1.8rem;
+}
+
+.subtitle {
+  color: #6c757d;
+  font-size: 1.1rem;
+  margin-bottom: 0;
+}
+
+.label {
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.formControl {
+  border: 2px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 0.75rem;
+  transition: border-color 0.3s ease;
+  font-size: 1rem;
+}
+
+.formControl:focus {
+  border-color: #1e3a8a;
+  box-shadow: 0 0 0 0.2rem rgba(30, 58, 138, 0.25);
+}
+
+.checkbox {
+  margin-top: 2rem;
+  color: #6c757d;
+  font-weight: 500;
+}
+
+.searchBtn {
+  background-color: #28a745;
+  border-color: #28a745;
+  padding: 0.75rem 3rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+.searchBtn:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(40, 167, 69, 0.4);
+}
+
+.searchBtn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+@media (max-width: 768px) {
+  .cardBody {
+    padding: 1.5rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .searchBtn {
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+  }
+}

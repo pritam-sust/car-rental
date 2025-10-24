@@ -1,0 +1,72 @@
+.locations {
+  background-color: #1e3a8a;
+  padding: 4rem 0;
+  margin-bottom: 4rem;
+}
+
+.title {
+  color: white;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+
+.locationCard {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  height: 100%;
+  background: white;
+}
+
+.locationCard:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.imageContainer {
+  height: 120px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagePlaceholder {
+  font-size: 3rem;
+  color: white;
+}
+
+.cardBody {
+  padding: 1rem;
+  text-align: center;
+  background-color: #1e3a8a;
+}
+
+.locationName {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 0;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .imageContainer {
+    height: 100px;
+  }
+
+  .imagePlaceholder {
+    font-size: 2rem;
+  }
+
+  .locationName {
+    font-size: 0.9rem;
+  }
+}
